@@ -11,6 +11,12 @@ public class RenameThisClass
         System.out.println("Hello World!");
         int i = 10;
         double f = i+2.5;
-        boolean flag = !true;
+        f = i+f;
+        boolean flag = true;
+        flag = !flag;
+        i++;
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(flag);
     }
 }
