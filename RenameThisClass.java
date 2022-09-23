@@ -23,5 +23,16 @@ public class RenameThisClass
         String string3 = "I am also a string";
         boolean stringsEqual = string1.equals(string3);
         String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"}; 
+        
+        for (i=0; i < strArray.length; i++) {
+            System.out.println(strArray[i]); 
+        }
+        for (String value : strArray) {
+            System.out.print(value);
+        }
+        System.out.println();
+        for (i = 0; i < strArray.length; i++) {
+            System.out.print(strArray[i] + "-"); 
+        }
     }
 }
